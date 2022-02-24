@@ -1,0 +1,1176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        AniDust
+    </title>
+    <!-- FAVICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+    <!-- OWL CAROUSEL -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <!-- BOX ICONS -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!-- APP CSS -->
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+
+    <!-- NAV -->
+    <div class="nav-wrapper">
+        <div class="container">
+            <div class="nav">
+                <a href="#" class="logo">
+                    <i class='bx bxs-yin-yang bx-tada main-color'></i>Ani<span class="main-color">Dust</span>
+                </a>
+                <ul class="nav-menu" id="nav-menu">
+                    <img src="обложки/dark theme icon/sun.png" id="icon" onplay="click.play()">
+                    <li><a href="index.html"  onmousedown="bleep.play()">Home</a></li>
+
+                    <div class="dropdown">
+                        <li class="dropbtn"><a   onmousedown="bleep.play()">Genre</a></li>
+                        <div class="dropdown-content">
+                            <a href="#fantasy" onmousedown="bleep.play()">FANTASY</a>
+                            <a href="#detective" onmousedown="bleep.play()">DETECTIVE</a>
+                            <a href="#comedy" onmousedown="bleep.play()">COMEDY</a>
+                            <a href="#horror" onmousedown="bleep.play()">HORROR</a>
+                        </div>
+                    </div>
+                    <li><a href="#movie"  onmousedown="bleep.play()">Movies</a></li>
+                    <li><a href="#top-ani-slide"  onmousedown="bleep.play()">Top</a></li>
+                    <li><a href="#footer"  onmousedown="bleep.play()">About</a></li>
+                    <li>
+                        <a href="signin.html" onmousedown="bleep.play()" class="btn btn-hover" >
+                            <span id="btn" onclick="audio.play();">Sign in</span>
+                        </a>
+
+                    </li>
+                </ul>
+                <!-- MOBILE MENU TOGGLE -->
+                <div class="hamburger-menu" id="hamburger-menu">
+                    <div class="hamburger"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END NAV -->
+
+    <!-- HERO SECTION -->
+    <div class="hero-section">
+        <!-- HERO SLIDE -->
+        <div class="hero-slide">
+            <div class="owl-carousel carousel-nav-center" id="hero-carousel">
+                <!-- SLIDE ITEM -->
+                <div class="hero-slide-item">
+                    <img src="обложки/Главная картинка/Дизайн без названия.png" alt="">
+                    <div class="overlay"></div>
+                    <div class="hero-slide-item-content">
+                        <div class="item-content">
+                            <div class="item-content-title top-down">
+                                One Punch Man
+                            </div>
+                            <div class="movie-infos top-down delay-2">
+                                <div class="movie-info">
+                                    <i class="bx bxs-star"></i>
+                                    <span>8.5</span>
+                                </div>
+                                <div class="movie-info">
+                                    <i class="bx bxs-time"></i>
+                                    <span>24 mins</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span>18 episodes</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span>1-season</span>
+                                </div>
+                            </div>
+                            <div class="item-content-description top-down delay-4">
+                                On a supercontinent Earth, powerful monsters and villains <br> have been wreaking havoc in the cities. In response, the <br> millionaire Agoni creates the Hero Association, which employs <br> superheroes to fight evil. Saitama, an unassociated hero, <br> hails from City Z and performs heroic deeds as a hobby. <br> He has trained himself to the point of being able <br> to defeat any enemy with a single punch, but his unmatched strength <br> has left him with an overwhelming sense of boredom.                            </div>
+                            <div class="item-action top-down delay-6">
+                                <a href="#" class="btn btn-hover">
+                                    <i class="bx bxs-right-arrow"></i>
+                                    <span>Watch now</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END SLIDE ITEM -->
+                <!-- SLIDE ITEM -->
+                <div class="hero-slide-item">
+                    <img src="обложки/Главная картинка/Дизайн без названияyourname.png" alt="">
+                    <div class="overlay"></div>
+                    <div class="hero-slide-item-content">
+                        <div class="item-content">
+                            <div class="item-content-title top-down">
+                                Your name
+                            </div>
+                            <div class="movie-infos top-down delay-2">
+                                <div class="movie-info">
+                                    <i class="bx bxs-star"></i>
+                                    <span>8.3</span>
+                                </div>
+                                <div class="movie-info">
+                                    <i class="bx bxs-time"></i>
+                                    <span>110 mins</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span>Full-time</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span>Movie</span>
+                                </div>
+                            </div>
+                            <div class="item-content-description top-down delay-4">
+                                Mitsuha is the daughter of the mayor of a small mountain <br> town. She's a straightforward high school girl who lives with <br> her sister and her grandmother and has no qualms about letting it <br> be known that she's uninterested in Shinto rituals or helping <br> her father's electoral campaign. Instead she dreams of <br> leaving the boring town and trying her luck in Tokyo. <br> Taki is a high school boy in Tokyo who works part-time in an <br> Italian restaurant and aspires to become an architect or an artist. Every <br> night he has a strange dream where he becomes...a high school girl <br> in a small mountain town                            </div>
+                            <div class="item-action top-down delay-6">
+                                <a href="#" class="btn btn-hover">
+                                    <i class="bx bxs-right-arrow"></i>
+                                    <span>Watch now</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END SLIDE ITEM -->
+                <!-- SLIDE ITEM -->
+                <div class="hero-slide-item">
+                    <img src="обложки/Главная картинка/Дизайн без названия naryto.png" alt="">
+                    <div class="overlay"></div>
+                    <div class="hero-slide-item-content">
+                        <div class="item-content">
+                            <div class="item-content-title top-down">
+                                Naruto
+                            </div>
+                            <div class="movie-infos top-down delay-2">
+                                <div class="movie-info">
+                                    <i class="bx bxs-star"></i>
+                                    <span>8.2</span>
+                                </div>
+                                <div class="movie-info">
+                                    <i class="bx bxs-time"></i>
+                                    <span>24 mins</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span>500 episodes</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span>2-season </span>
+                                </div>
+                            </div>
+                            <div class="item-content-description top-down delay-4">
+                                Two years have passed unnoticed in Naruto's world. Former <br> newcomers joined the ranks of experienced Shinobi in the rank of <br> tuning and zenin. The main characters did not sit still – everyone <br> became a disciple of one of the legendary Sannin - <br> the three great ninja Konoha. The guy in orange continued <br> his training with the wise but eccentric Jiraiya, <br> gradually ascending to a new level of martial skill.                            </div>
+                            <div class="item-action top-down delay-6">
+                                <a href="#" class="btn btn-hover">
+                                    <i class="bx bxs-right-arrow"></i>
+                                    <span>Watch now</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END SLIDE ITEM -->
+            </div>
+        </div>
+        <!-- END HERO SLIDE -->
+
+
+
+        <!-- TOP ANIMES SLIDE -->
+        <div class="top-ani-slide">
+            <div class="owl-carousel" id="top-ani-slide">
+                <!-- ANIME ITEM -->
+                <div class="movie-item">
+                    <a href="3web.html"><img src="обложки/топ аниме/attack on titan .jpg" alt=""></a>
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Attack on Titan
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>8.4</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>25 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>23 episodes</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>1-season</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <div class="movie-item">
+                    <a href="4web.html"><img src="обложки/топ аниме/FULL Metal alchemist 8.2.jpg" alt=""></a>
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Full metall alchemist
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>8.5</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>25 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>51 episodes</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>1-season</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <div class="movie-item">
+                    <a href="1web.html"><img src="обложки/Klinok-rassekayushhij-demonov-moment-iz-anime-19.jpg"></a>
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Demon Slayer
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>8.7</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>22 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>22 episodes</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>1-season</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <div class="movie-item">
+                    <a href="2web.html"><img src="обложки/топ аниме/one piece 8,2.jpg" alt=""></a>
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            One Piece
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>7.5</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>24 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>109 episodes</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>19-season</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <div class="movie-item">
+                    <a href=""><img src="обложки/топ аниме/stein;s gate 8,3.jpg" alt=""></a>
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Stein's Gate
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>7.8</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>23 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>15 episodes</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>1-season</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END MOVIE ITEM -->
+
+
+                <!-- MOVIE ITEM -->
+                <div class="movie-item">
+                    <a href=""><img src="обложки/топ аниме/8,6.jpg" alt=""></a>
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Death Note
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>40 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>25 episodes</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>1-season</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END MOVIE ITEM -->
+            </div>
+        </div>
+        <!-- END TOP MOVIES SLIDE -->
+    </div>
+    <!-- END HERO SECTION -->
+
+    <!-- FANTASY SECTION -->
+    <div class="section" id="fantasy">
+        <div class="container">
+            <div class="section-header">
+                Fantasy
+            </div>
+            <div class="movies-slide carousel-nav-center owl-carousel">
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="обложки/fantasy/overlord 8.3.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Overlord
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>8.3</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>24 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>34 episodes</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>2-season</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="обложки/fantasy/Pokémon-7,5.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Pocemon
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>7.5</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>25 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>124 episodes</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>5-season</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="обложки/fantasy/sevendeadlysins_.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Seven deadly sins
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>8.2</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>28 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>50 episodes</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>1-season</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="обложки/fantasy/sword art online.7.7.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Sword art online
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>7.7</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>27 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>13</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>2-season</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="обложки/fantasy/Little witch Academia 7.3.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Little witch Academia
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>7.3</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>22 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>23 episodes</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>1-season</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="обложки/fantasy/one piece 8.1.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            One Piece
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>8.1</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>20 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>500 episodes</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>2-season</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="обложки/fantasy/tokyo-ghoul.7,2jpg.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Tokyo Ghoul
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>7.2</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>25 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>20 episodes</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>1-season</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+            </div>
+        </div>
+    </div>
+    <!-- END LATEST MOVIES SECTION -->
+
+
+
+
+
+
+    <!-- DETECTIVE SECTION -->
+    <div class="section" id="detective">
+        <div class="container">
+            <div class="section-header">
+                Detective
+            </div>
+            <div class="movies-slide carousel-nav-center owl-carousel">
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="обложки/detective/gosick 8.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            GOSICK
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>8.0</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>20 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>11 episodes</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>3-season</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="обложки/detective/Ghost in the shell 8.2.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Ghost in the shell
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>8.2</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>27 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>13 episodes</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>1-season</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="обложки/detective/erased 8.7.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Erased
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>8.7</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>20 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>34 episodes</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>2-season</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="обложки/detective/death note 8.8.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Death note
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>8.3</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>20 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>5 episodes</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>3-season</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="обложки/detective/psycho-pass 8.3.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Psycho-pass
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>8.3</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>20 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>5 episodes</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>5 episodes</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="обложки/detective/detective conan 8.2.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Detective conan
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>8.2</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>20 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>8 episodes</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>3-season</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+            </div>
+        </div>
+    </div>
+    <!-- END DETECTIVE SECTION -->
+
+
+    <!-- COMEDY SECTION SECTION -->
+    <div class="section" id="comedy">
+        <div class="container">
+            <div class="section-header">
+                Comedy
+            </div>
+            <div class="movies-slide carousel-nav-center owl-carousel">
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="обложки/comedy/Arakawa. 7.1jpg.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Arakawa
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>7.1</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>20 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>23 episodes</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>2-season</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="обложки/comedy/daily lives of high school boys 8.5.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Daily lives in high school
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>8.5</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>23 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>17 episodes</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>1-season</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="обложки/comedy/my ordinary life 7.4.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            My ordinary life
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>7.4</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>20 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>34 episodes</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>6-season</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="обложки/comedy/Sayanara, Zetsuboy-sensei 8.5.jpg..jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Zetsuboy-sensei
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>8.5</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>20 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>29 episodes</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>1-season</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="обложки/comedy/galaxy angel 7,6.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Galaxy angel
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>7.6</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>20 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>12 episodes</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>4-season</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="обложки/comedy/Gintama 8.9.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Gintama
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>8.9</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>20 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>5-episodes</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>1-season</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- END MOVIE ITEM -->
+            </div>
+        </div>
+    </div>
+    <!-- END COMEDY SECTION -->
+
+    <!-- HORROR SECTION -->
+    <div class="section" id="horror">
+        <div class="container">
+            <div class="section-header">
+                Horror
+            </div>
+            <div class="movies-slide carousel-nav-center owl-carousel">
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="обложки/horror/b6211aaf8fd9b889d96ff5686c2a1a31--dvd-animation. 8.6.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Parasite
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>8.6</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>20 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>18-episodes</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>2-season</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="обложки/horror/ghost hunt 8.4.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Ghost Hunt
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>8.4</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>23-mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>9 episodes</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>1-season</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="обложки/horror/mononoke 8.5.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Mononoke
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>8.5</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>20 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>10 episodes</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>1-season</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="обложки/horror/shiki 8.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Shiki
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>8.0</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>20 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>23 episodes</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>3-season</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="обложки/horror/monster 8.8.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Monster
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>8.8</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>20 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>6 episodes</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>1-season</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- MOVIE ITEM -->
+                <a href="#" class="movie-item">
+                    <img src="обложки/horror/yami shibai 7.3.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Yami Shibai
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>7.3</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>23 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>14 episodes</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>2-season</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- END MOVIE ITEM -->
+                <!-- END MOVIE ITEM -->
+            </div>
+        </div>
+    </div>
+    <!-- END HORROR SECTION -->
+
+
+
+    <!-- SPECIAL  SECTION -->
+    <div class="section" id="movie">
+        <div class="hero-slide-item">
+            <img src="обложки/Главная картинка/Дизайн без названия (1).png" alt="">
+            <div class="overlay"></div>
+            <div class="hero-slide-item-content">
+                <div class="item-content">
+                    <div class="item-content-title">
+                        Howl's moving castle
+                    </div>
+                    <div class="movie-infos">
+                        <div class="movie-info">
+                            <i class="bx bxs-star"></i>
+                            <span>9.5</span>
+                        </div>
+                        <div class="movie-info">
+                            <i class="bx bxs-time"></i>
+                            <span>120 mins</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>HD</span>
+                        </div>
+                        <div class="movie-info">
+                            <span>movie</span>
+                        </div>
+                    </div>
+                    <div class="item-content-description">
+                        An evil witch imprisoned 18-year-old Sophie in the body of <br> an old woman. The girl-grandmother runs away from the city wherever <br> her eyes look and meets an amazing house on legs, where she meets<br> the powerful wizard Howl and the demon Calcifer. Calcifer must serve <br> Howl under a contract, the terms of which he cannot disclose. The girl <br> and the demon decide to help each other get rid of the evil spell.                    </div>
+                    <div class="item-action">
+                        <a href="#" class="btn btn-hover">
+                            <i class="bx bxs-right-arrow"></i>
+                            <span>Watch now</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END SPECIAL SECTION -->
+
+    <!-- FOOTER SECTION -->
+    <footer class="section" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-md-6 col-sm-12">
+                    <div class="content">
+                        <a href="#" class="logo">
+                            <i class='bx bxs-yin-yang bx-tada main-color'></i>Ani<span class="main-color">Dust</span>
+                        </a>
+                        <p>
+                            The best anime for easy viewing
+                            Series that you don't have to strain yourself with, just sit back and enjoy watching without thinking about anything. Enjoy watching anime without ads, with full access to the extensive AniDust catalog and new ongoings series an hour after their premiere in Japan.                        </p>
+                        <div class="social-list">
+                            <a href="#" class="social-item">
+                                <i class="bx bxl-facebook"></i>
+                            </a>
+                            <a href="#" class="social-item">
+                                <i class="bx bxl-twitter"></i>
+                            </a>
+                            <a href="#" class="social-item">
+                                <i class="bx bxl-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8 col-md-6 col-sm-12">
+                    <div class="row">
+                        <div class="col-3 col-md-6 col-sm-6">
+                            <div class="content">
+                                <p><b>AniDust</b></p>
+                                <ul class="footer-menu">
+                                    <li><a href="#">About us</a></li>
+                                    <li><a href="#">My profile</a></li>
+                                    <li><a href="#">Sign in</a></li>
+                                    <li><a href="#">Contacts</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-9 col-md-6 col-sm-6">
+                            <img src="обложки/logo/Dragon-Ball-Dragon-Ball-Z-DRAGON-BALL-Z-KAKAROT-Son-Goku-simple-background-2000849-removebg-preview.png" id="dragon">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- END FOOTER SECTION -->
+
+    <!-- COPYRIGHT SECTION -->
+    <div class="copyright">
+        2022 <a href="https://astanait.edu.kz/" target="_blank">
+            Astana IT University</a>
+    </div>
+    <!-- END COPYRIGHT SECTION -->
+
+    <!-- SCRIPT -->
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- OWL CAROUSEL -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+    <!-- APP SCRIPT -->
+    <script src="app.js">
+    </script>
+
+
+
+</body>
+
+</html>

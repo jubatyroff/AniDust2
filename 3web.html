@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+    AniDust
+  </title>
+  <!-- FAVICON -->
+  <link rel="apple-touch-icon" sizes="180x180" href="fav/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+  <!-- OWL CAROUSEL -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+  <!-- BOX ICONS -->
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <!-- APP CSS -->
+  <link rel="stylesheet" href="grid.css">
+  <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+
+<!-- NAV -->
+<div class="nav-wrapper">
+  <div class="container">
+    <div class="nav">
+      <a href="#" class="logo">
+        <i class='bx bxs-yin-yang bx-tada main-color'></i>Ani<span class="main-color">Dust</span>
+      </a>
+      <ul class="nav-menu" id="nav-menu">
+        <img src="обложки/dark theme icon/sun.png" id="icon" onplay="click.play()">
+        <li><a href="#"  onmousedown="bleep.play()">Home</a></li>
+
+        <div class="dropdown">
+          <li class="dropbtn"><a   onmousedown="bleep.play()">Genre</a></li>
+          <div class="dropdown-content">
+            <a href="#fantasy" onmousedown="bleep.play()">FANTASY</a>
+            <a href="#detective" onmousedown="bleep.play()">DETECTIVE</a>
+            <a href="#comedy" onmousedown="bleep.play()">COMEDY</a>
+            <a href="#horror" onmousedown="bleep.play()">HORROR</a>
+          </div>
+        </div>
+        <li><a href="#movie"  onmousedown="bleep.play()">Movies</a></li>
+        <li><a href="#top-ani-slide"  onmousedown="bleep.play()">Top</a></li>
+        <li><a href="#footer"  onmousedown="bleep.play()">About</a></li>
+        <li>
+          <a href="#" onmousedown="bleep.play()" class="btn btn-hover" data-toggle="modal" data-target="#exampleModal">
+            <span id="btn" onclick="audio.play();">Sign in</span>
+          </a>
+
+        </li>
+      </ul>
+      <!-- MOBILE MENU TOGGLE -->
+      <div class="hamburger-menu" id="hamburger-menu">
+        <div class="hamburger"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END NAV -->
+
+<div class="cardBody">
+  <div class="card">
+    <div class="circle"></div>
+    <div class="cardcontent">
+      <div class="item-content">
+        <div class="item-content-title">
+          Attack on Titan
+        </div>
+        <div class="movie-infos">
+          <div class="movie-info">
+            <i class="bx bxs-star"></i>
+            <span>8.4</span>
+          </div>
+          <div class="movie-info">
+            <i class="bx bxs-time"></i>
+            <span>23 mins</span>
+          </div>
+          <div class="movie-info">
+            <span>25 episodes</span>
+          </div>
+          <div class="movie-info">
+            <span>1-season</span>
+          </div>
+        </div>
+        <div class="item-content-description">
+          An evil witch imprisoned 18-year-old Sophie in the body of <br> an old woman. The girl-grandmother runs away from the city wherever <br> her eyes look and meets an amazing house on legs, where she meets<br> the powerful wizard Howl and the demon Calcifer. Calcifer must serve <br> Howl under a contract, the terms of which he cannot disclose. The girl <br> and the demon decide to help each other get rid of the evil spell.                    </div>
+
+      </div>
+    </div>
+    <img src="обложки/23-233341_levi-attack-on-titan-2-levi-ps4-hd-removebg-preview.png" alt="">
+  </div>
+</div>
+
+
+<div class="video1">
+  <div class="container">
+    <div class="com-container">
+      <div class="VIDEO">
+        <video controls>
+          <source src="vidoe/TVアニメ「進撃の巨人」The Final Season Part 2ノンクレジットOP ｜SiM「The Rumbling」.mp4">
+        </video>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- FOOTER SECTION -->
+<footer class="section" id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-4 col-md-6 col-sm-12">
+        <div class="content">
+          <a href="#" class="logo">
+            <i class='bx bxs-yin-yang bx-tada main-color'></i>Ani<span class="main-color">Dust</span>
+          </a>
+          <p>
+            The best anime for easy viewing
+            Series that you don't have to strain yourself with, just sit back and enjoy watching without thinking about anything. Enjoy watching anime without ads, with full access to the extensive AniDust catalog and new ongoings series an hour after their premiere in Japan.                        </p>
+          <div class="social-list">
+            <a href="#" class="social-item">
+              <i class="bx bxl-facebook"></i>
+            </a>
+            <a href="#" class="social-item">
+              <i class="bx bxl-twitter"></i>
+            </a>
+            <a href="#" class="social-item">
+              <i class="bx bxl-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-8 col-md-6 col-sm-12">
+        <div class="row">
+          <div class="col-3 col-md-6 col-sm-6">
+            <div class="content">
+              <p><b>AniDust</b></p>
+              <ul class="footer-menu">
+                <li><a href="#">About us</a></li>
+                <li><a href="#">My profile</a></li>
+                <li><a href="#">Sign in</a></li>
+                <li><a href="#">Contacts</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-9 col-md-6 col-sm-6">
+            <img src="обложки/logo/Dragon-Ball-Dragon-Ball-Z-DRAGON-BALL-Z-KAKAROT-Son-Goku-simple-background-2000849-removebg-preview.png" id="dragon">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- END FOOTER SECTION -->
+
+<!-- COPYRIGHT SECTION -->
+<div class="copyright">
+  2022 <a href="https://astanait.edu.kz/" target="_blank">
+  Astana IT University</a>
+</div>
+<!-- END COPYRIGHT SECTION -->
+
+<!-- SCRIPT -->
+<!-- JQUERY -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<!-- OWL CAROUSEL -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+<!-- APP SCRIPT -->
+<script src="app.js">
+</script>
+
+
+
+</body>
+
+</html>
+

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f79b361b-7cb9-4ba2-9111-747ba08db305" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="25RmRLqJTgeTZGNqa08M6AS7UAR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/обложки" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Нурбек\Desktop\Web\обложки" />
+      <recent name="C:\Users\Нурбек\Desktop\Web\обложки\Рекомендации" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Нурбек\Desktop\Web\обложки" />
+      <recent name="C:\Users\Нурбек\Desktop\flix-movie-homepage-main\обложки" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f79b361b-7cb9-4ba2-9111-747ba08db305" name="Changes" comment="" />
+      <created>1645498263275</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645498263275</updated>
+      <workItem from="1645498265494" duration="9770000" />
+      <workItem from="1645519127760" duration="2438000" />
+      <workItem from="1645524623705" duration="867000" />
+      <workItem from="1645528037801" duration="842000" />
+      <workItem from="1645533142058" duration="583000" />
+      <workItem from="1645540676388" duration="669000" />
+      <workItem from="1645541534599" duration="1788000" />
+      <workItem from="1645543453264" duration="1940000" />
+      <workItem from="1645545526827" duration="1310000" />
+      <workItem from="1645551555784" duration="596000" />
+      <workItem from="1645558128077" duration="2700000" />
+      <workItem from="1645594965791" duration="5028000" />
+      <workItem from="1645605571134" duration="8032000" />
+      <workItem from="1645613708887" duration="7758000" />
+      <workItem from="1645627217380" duration="1982000" />
+      <workItem from="1645629290476" duration="4114000" />
+      <workItem from="1645633451913" duration="223000" />
+      <workItem from="1645633712906" duration="1809000" />
+      <workItem from="1645635609839" duration="3303000" />
+      <workItem from="1645642210139" duration="2262000" />
+      <workItem from="1645644638493" duration="731000" />
+      <workItem from="1645668730206" duration="3347000" />
+      <workItem from="1645672318696" duration="511000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
